@@ -1,0 +1,139 @@
+.tcon {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 23px;
+    transition: 0.3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 32px !important;
+    background: transparent;
+    outline: none;
+    padding: 0;
+}
+
+.tcon>* {
+    display: block;
+}
+
+.tcon:hover,
+.tcon:focus {
+    outline: none;
+}
+
+.tcon::-moz-focus-inner {
+    border: 0;
+}
+
+.tcon-menu__lines {
+    display: inline-block;
+    height: 3px;
+    width: 32px;
+    border-radius: 999999px;
+    transition: 0.3s;
+    background: #FFC72C;
+    position: relative;
+}
+
+.tcon:hover .tcon-menu__lines {
+    background: #F8B600;
+}
+
+.tcon-menu__lines::before,
+.tcon-menu__lines::after {
+    display: inline-block;
+    height: 3px;
+    width: 32px;
+    border-radius: 999999px;
+    transition: 0.3s;
+    background: #FFC72C;
+    content: '';
+    position: absolute;
+    left: 0;
+    -webkit-transform-origin: 2.85714px center;
+    transform-origin: 2.85714px center;
+    width: 100%;
+}
+
+.tcon-menu__lines::before {
+    top: 9px;
+}
+
+.tcon-menu__lines::after {
+    top: -9px;
+}
+
+.tcon:hover .tcon-menu__lines::before,
+.tcon:hover .tcon-menu__lines::after {
+    background: #F8B600;
+}
+
+.tcon-transform .tcon-menu__lines {
+    -webkit-transform: scale3d(.8, .8, .8);
+    transform: scale3d(.8, .8, .8);
+}
+
+.tcon-menu--xcross {
+    width: auto;
+}
+
+.tcon-menu--xcross.tcon-transform .tcon-menu__lines {
+    background: transparent;
+}
+
+.tcon-menu--xcross.tcon-transform .tcon-menu__lines::before,
+.tcon-menu--xcross.tcon-transform .tcon-menu__lines::after {
+    /*background-color: #FFC72C;*/
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    top: 0;
+    height: 4px;
+    width: 40px;
+}
+
+/*.tcon:hover .tcon-menu--xcross.tcon-transform .tcon-menu__lines::before,
+    .tcon:hover .tcon-menu--xcross.tcon-transform .tcon-menu__lines::after {
+      background-color: red !important;
+    }*/
+
+.tcon-menu--xcross.tcon-transform .tcon-menu__lines::before {
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.tcon-menu--xcross.tcon-transform .tcon-menu__lines::after {
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.tcon-visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.tcon-visuallyhidden:active,
+.tcon-visuallyhidden:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}

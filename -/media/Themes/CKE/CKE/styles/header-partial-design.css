@@ -1,0 +1,181 @@
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+header #header {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+    header #header .cxa-minicart-component {
+        margin-left: 0;
+        order: 3;
+        margin-right: 10px;
+    }
+    header #header .cxa-topbarlinks-component {
+        margin-left: 0;
+        order: 2;
+        margin-right: 15px;
+    }
+    header #header .cxa-searchbar-component {
+        margin-left: 0;
+        width: auto;
+        order: 1;
+        margin-right: 15px;
+    }
+}
+
+header .component.row-splitter {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    flex-flow: column nowrap;
+    /**
+  * status and breadcrumb area
+  **/
+}
+
+header .component.row-splitter>* {
+    align-self: center;
+}
+
+header .component.row-splitter>* {
+    margin: 0;
+}
+
+header .component.row-splitter>div:first-child {
+    height: 96px;
+}
+
+header .component.row-splitter>div:first-child>div {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+}
+
+header .component.row-splitter>div:first-child>div .component.container {
+    margin-top: 0;
+    width: 100%;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-flow: row nowrap;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content>* {
+    align-self: center;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content>* {
+    margin: 0;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .component {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    header .component.row-splitter>div:first-child>div .component.container .component-content .component.image {
+        width: 80%;
+    }
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .component.image img {
+    height: 38px;
+}
+
+@media (max-width: 767px) {
+    header .component.row-splitter>div:first-child>div .component.container .component-content .component.image img {
+        width: auto;
+        height: 55px;
+    }
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .component.image .image-caption {
+    display: none;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .cxa-searchbar-component {
+    margin-left: auto;
+    width: 33%;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .cxa-languageselector-component {
+    margin-left: auto;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .cxa-minicart-component {
+    margin-left: 30px;
+}
+
+header .component.row-splitter>div:first-child>div .component.container .component-content .cxa-topbarlinks-component {
+    margin-left: 30px;
+}
+
+header .component.row-splitter>div:nth-child(2) {
+    margin-top: 0;
+    padding: 0;
+}
+
+header .component.row-splitter>div:nth-child(2) {
+    margin-top: 0;
+    padding: 0;
+}
+
+header .component.row-splitter>div:last-child {
+    background: #f0f0f0;
+}
+
+header .component.row-splitter>div:last-child .component.container {
+    max-width: 1140px;
+}
+
+@media (max-width: 767px) {
+    header .component.row-splitter>div:last-child .component.container {
+        display: none;
+    }
+}

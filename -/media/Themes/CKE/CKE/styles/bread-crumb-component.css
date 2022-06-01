@@ -1,0 +1,117 @@
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+.component.breadcrumb {
+    padding-left: 0;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.component.breadcrumb nav ol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.component.breadcrumb nav ol>* {
+    align-self: flex-start;
+}
+
+.component.breadcrumb nav ol>*:not(:last-child) {
+    margin-right: 3px;
+}
+
+.component.breadcrumb nav ol>*:not(:first-child) {
+    margin-left: 0;
+}
+
+.component.breadcrumb nav ol>div {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-flow: column nowrap;
+}
+
+.component.breadcrumb nav ol>div>* {
+    align-self: flex-start;
+}
+
+.component.breadcrumb nav ol>div>* {
+    margin: 0;
+}
+
+.component.breadcrumb nav ol li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-flow: row nowrap;
+    font-size: 14px;
+}
+
+.component.breadcrumb nav ol li>* {
+    align-self: flex-start;
+}
+
+.component.breadcrumb nav ol li>*:not(:last-child) {
+    margin-right: 3px;
+}
+
+.component.breadcrumb nav ol li>*:not(:first-child) {
+    margin-left: 0;
+}
+
+.component.breadcrumb nav ol li>div {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-flow: column nowrap;
+}
+
+.component.breadcrumb nav ol li>div>* {
+    align-self: flex-start;
+}
+
+.component.breadcrumb nav ol li>div>* {
+    margin: 0;
+}

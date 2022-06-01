@@ -1,0 +1,79 @@
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+.row.column-splitter>div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main .component.column-splitter {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main .component.column-splitter>.container-rounded {
+    padding: 20px;
+}
+
+main .component.column-splitter>div:first-child {
+    margin-right: 7px;
+}
+
+main .component.column-splitter>div:last-child {
+    margin-left: 7px;
+}
+
+@media (max-width: 991px) {
+    main .component.column-splitter {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    main .component.column-splitter>.container-rounded {
+        padding: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    main .component.column-splitter>div:first-child {
+        margin-right: 0;
+    }
+    main .component.column-splitter>div:last-child {
+        margin-left: 0;
+    }
+}

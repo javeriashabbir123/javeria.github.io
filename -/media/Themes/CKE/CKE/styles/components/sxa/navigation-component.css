@@ -1,0 +1,132 @@
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+/*justification types*/
+
+/* alignment types */
+
+/*----------------------------------Columns -------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Rows -------------------------------------*/
+
+/*------------------------------------------ Forms and Layout Tools------------------------------------------------------------*/
+
+/*------------------------ Page Layouts -------------------------------*/
+
+.cxa-navigation-component ul li:hover a,
+.cxa-navigation-component ul li.active a {
+    padding: 0 10px;
+    border-bottom: 4px solid #fff;
+}
+
+.cxa-navigation-component {
+    line-height: 45px;
+    background: #0e909f;
+}
+
+.cxa-navigation-component .navigation-header {
+    display: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.cxa-navigation-component .navigation-header .store-name {
+    padding-left: 30px;
+    font-size: 24px;
+    color: inherit;
+}
+
+.cxa-navigation-component .navigation-header .navbar-toggler {
+    padding-right: 30px;
+    font-size: 18px;
+    color: inherit;
+}
+
+.cxa-navigation-component ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+.cxa-navigation-component ul:before,
+.cxa-navigation-component ul:after {
+    content: none;
+}
+
+.cxa-navigation-component ul li {
+    opacity: 0.8;
+}
+
+.cxa-navigation-component ul li.active {
+    font-weight: 800;
+    opacity: 1;
+}
+
+.cxa-navigation-component ul li a {
+    display: block;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.cxa-navigation-component ul li a:focus,
+.cxa-navigation-component ul li a:hover,
+.cxa-navigation-component ul li a span {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .cxa-navigation-component .navigation-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .cxa-navigation-component .navigation-list {
+        display: none;
+    }
+    .cxa-navigation-component .navigation-list.active {
+        display: block;
+    }
+    .cxa-navigation-component .navigation-list ul {
+        display: block;
+        margin: 0;
+    }
+    .cxa-navigation-component .navigation-list ul li.active a {
+        background: #0a6f7b;
+    }
+    .cxa-navigation-component .navigation-list ul li a {
+        padding: 0 30px !important;
+        border: 0 !important;
+    }
+}
